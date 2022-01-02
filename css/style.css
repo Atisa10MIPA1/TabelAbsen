@@ -1,0 +1,47 @@
+@import "./normalize.css";
+/* Typography */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 1.6rem;
+}
+
+/* Heading */
+.heading {
+  font-size: 4rem;
+  text-align: center;
+}
+
+/* Tagline */
+.tagline {
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+/* Absent Table */
+table,
+th,
+td {
+  border: 1px solid var(--color-dark);
+  border-collapse: collapse;
+  padding: 0.5rem;
+}
+
+table {
+  text-align: center;
+  margin: 2rem auto;
+}
+
+tr:nth-child(even) {
+  background-color: var(--color-lighter-grey);
+}
+
+th {
+  background-color: var(--color-darker-grey);
+  color: white;
+  font-weight: 500;
+  padding: 1rem;
+}
